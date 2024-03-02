@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>REDSTORE|E-COMMERCIAL WEBSITE</title>
+    <link rel="stylesheet" href="style1.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="stylesheet" href="path/to/fontawesome.min.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;1,600&display=swap" rel="stylesheet">
+   <link  href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.1/css/fontawesome.min.css" rel="stylesheet"> 
+</head>
+<body>
+ <div class="header">
+   <div class="container">
+    <div class="navbar"> 
+        <div class="logo">
+            <img src="images/logo.png" width="150px">
+        </div>
+        <nav>
+            <ul>
+                <li><a href="/login.html">HOME</a></li>
+                <li><a href="/index1.html">PRODUCT</a></li>
+                
+                <li><a href="">ABOUT</a></li>
+                <li><a href="">CONTACT</a></li>
+                <li><a href="">ACCOUNT</a></li>
+                <img src="images/cart.png" width="30px" height="25px">
+            </ul>
+        </nav>
+        </div>
+       </div>
+    </div>
+
+    
+    
+   <div class="account-page">
+    <div class="container">
+        <div class="row">
+            <div class="col-2">
+                <img src="images/image1.png" alt="" width="100%">
+            </div>
+            <div class="col-2">
+               <div class="form-container">
+                   <div class="form-btn">
+                    <span onclick="login()">LOGIN</span>
+                    <span onclick="register()">REGISTER</span>
+
+                    <hr id="Indicator">
+
+                     </div>
+                     <form id="LoginForm" action="/index1.html">
+                        <input type="text" placeholder="username" required>
+                        <input type="password" placeholder="password" required>
+                        <a href="C:\Users\BAPS\Desktop\REDSTORE_E-COMMERCIAL WEBSITE index page_files"></a>
+                        <button type="submit" class="btn" style="color:whitesmoke;background-color:orangered;
+                        border-radius: 10px;">LOGIN</button><br>
+                        <a href="">forgot password</a>
+                     </form>
+                     <form id="RegForm" action="/index1.html" required>
+                        <input type="text" placeholder="username" required>
+                        <input type="email" placeholder="email" required>
+                        <input type="password" placeholder="password" required>
+                        <a href="C:\Users\BAPS\Desktop\REDSTORE_E-COMMERCIAL WEBSITE index page_files"></a>
+                        
+                        <button type="submit" class="btn" style="color: whitesmoke;background-color:orangered;
+                        border-radius: 10px;">REGISTER</button>
+                       
+                     </form>
+            
+               </div>
+            </div>
+        </div>
+    </div>
+   </div>
+
+
+
+   <div class="footer">
+    <div class="container">
+        <div class="row">
+            <div class=" footer-col-1">
+                <h3> Download</h3>
+                <p> Download the app for ios and android mobile phone</p>
+              <div class="app-logo">
+                 <img src="images/app-store.png" alt="">
+                <img src="images/play-store.png" alt="">
+
+              </div>
+            </div>
+            <div class=" footer-col-2">
+                <img src="images/logo-white.png" alt="">
+                <p> Sustainable benefits of sports are needed!</p>
+        
+            </div>
+            <div class=" footer-col-3">
+                <h3>Useful links</h3>
+                <ul>
+                    <li> Coupons</li>
+                    <li> Blog posts</li>
+                    <li> Return policy</li>
+
+                </ul>
+            
+
+        
+
+    </div>
+    <div class=" footer-col-4">
+        <h3>Follow us</h3>
+        <ul>
+            <li>Facebook</li>
+            <li>Instagram</li>
+            <li>Youtube</li>
+            
+        </ul>
+  </div>
+</div>
+</div>
+</div>
+        
+
+
+<script>
+var LoginForm=document.getElementById("LoginForm");
+var RegForm=document.getElementById("RegForm");
+var Indicator=document.getElementById("Indicator");
+
+     function register(){
+        RegForm.style.transform="translate(0px)";
+        LoginForm.style.transform="translate(0px)";
+       window.open("C:\Users\BAPS\Desktop\redstore\index1.html")
+     }
+
+
+     function login(){
+        
+        LoginForm.style.transform="translate(300px)";
+        RegForm.style.transform="translate(300px)";
+        
+
+     }
+      
+
+</script>
+
+    
+  
+</body>
+</html>
